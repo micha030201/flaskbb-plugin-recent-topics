@@ -1,0 +1,4 @@
+graft recent_topics/templates
+graft recent_topics/translations
+
+global-exclude *.pyc __pycache__ .keep

@@ -1,0 +1,5 @@
+<li {% if 'recent_topics_bp.index' == request.endpoint %}class="active"{% endif %}>
+    <a href="{{ url_for('recent_topics_bp.index') }}">
+        <i class="fa fa-newspaper-o"></i> Recent topics
+    </a>
+</li>
